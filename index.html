@@ -1,0 +1,2030 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Raízes do Nordeste</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="cabecalho">
+
+  <a href="#inicio" class="logo">
+    <img src="assets/logo-raizes-do-nordeste.png" alt="Raízes do Nordeste">
+  </a>
+
+  <nav class="menu">
+    <a href="#inicio">Início</a>
+    <a href="#vantagens">Vantagens</a>
+    <a href="#canais">Canais</a>
+    <a href="#cardapio">Cardápio</a>
+    <a href="#sobre">Sobre nós</a>
+  </nav>
+
+  <div class="acoes">
+
+    <label class="seletor-unidade">
+      <img
+        src="assets/localizacao-icon.png"
+        alt="Localização"
+        class="icone-localizacao-img"
+      >
+      <select id="unidade">
+        <option value="recife">Recife</option>
+        <option value="petrolina">Petrolina</option>
+        <option value="salvador">Salvador</option>
+      </select>
+    </label>
+
+    <div class="icone-carrinho">
+      <img
+        src="assets/carrinho-icon.png"
+        alt="Carrinho"
+        class="icone-carrinho-img"
+      >
+      <div class="contador-carrinho">0</div>
+    </div>
+
+    <button class="usuario-header" type="button">
+      <img
+        src="assets/usuario-icon.png"
+        alt="Usuário"
+        class="icone-usuario-img"
+      >
+      <span class="texto-usuario-header">Entrar</span>
+    </button>
+
+  </div>
+
+</header>
+
+<div class="fundo-escolha-unidade ativo"></div>
+
+<section class="modal-escolha-unidade ativo">
+
+  <div class="cabecalho-escolha-unidade">
+    <span class="etiqueta-escolha">Antes de começar</span>
+
+    <h2>
+      Escolha sua unidade
+    </h2>
+
+    <p>
+      Bem-vindos ao Raízes do Nordeste — o lugar onde você pode se deliciar com a maravilhosa
+      culinária nordestina, tanto em nossas unidades quanto no conforto da sua casa. Escolha sua
+      unidade para começarmos essa experiência com o sabor da sua região.
+    </p>
+  </div>
+
+  <div class="opcoes-unidade">
+
+    <button class="card-unidade" data-unidade="recife">
+      <div class="imagem-unidade recife"></div>
+
+      <div>
+        <strong>Recife</strong>
+        <span>Marco Zero • Recife Antigo</span>
+      </div>
+    </button>
+
+    <button class="card-unidade" data-unidade="petrolina">
+      <div class="imagem-unidade petrolina"></div>
+
+      <div>
+        <strong>Petrolina</strong>
+        <span>Orla • Rio São Francisco</span>
+      </div>
+    </button>
+
+    <button class="card-unidade" data-unidade="salvador">
+      <div class="imagem-unidade salvador"></div>
+
+      <div>
+        <strong>Salvador</strong>
+        <span>Pelourinho • Centro Histórico</span>
+      </div>
+    </button>
+
+  </div>
+
+</section>
+
+
+<section id="inicio" class="inicio">
+
+  <div class="texto-inicio">
+
+    <h1>
+      Sabor que conecta tradições
+    </h1>
+
+    <p>
+      O melhor da culinária nordestina, onde você estiver.
+    </p>
+
+    <div class="botoes">
+
+      <button class="botao-principal botao-ir-cardapio">
+        Ver cardápio
+      </button>
+
+    </div>
+
+  </div>
+
+</section>
+
+<section id="vantagens" class="vantagens">
+
+  <div class="card-vantagem">
+
+    <div class="icone">
+      <img
+        src="assets/entrega-icon.png"
+        alt="Pedidos rápidos"
+        class="icone-vantagem-img"
+      >
+    </div>
+
+    <h4>Pedidos rápidos</h4>
+
+    <p>
+      Retire na loja ou receba onde estiver
+    </p>
+
+  </div>
+
+  <div class="card-vantagem">
+
+    <div class="icone">
+      <img
+        src="assets/ingredientes-icon.png"
+        alt="Ingredientes regionais"
+        class="icone-vantagem-img"
+      >
+    </div>
+
+    <h4>Ingredientes regionais</h4>
+
+    <p>
+      Produtos frescos e de qualidade
+    </p>
+
+  </div>
+
+  <div class="card-vantagem">
+
+    <div class="icone">
+      <img
+        src="assets/fidelidade-icon.png"
+        alt="Fidelidade"
+        class="icone-vantagem-img"
+      >
+    </div>
+
+    <h4>Fidelidade</h4>
+
+    <p>
+      Acumule pontos e ganhe benefícios
+    </p>
+
+  </div>
+
+  <div class="card-vantagem">
+
+    <div class="icone">
+      <img
+        src="assets/seguranca-icon.png"
+        alt="Pagamento seguro"
+        class="icone-vantagem-img"
+      >
+    </div>
+
+    <h4>Pagamento seguro</h4>
+
+    <p>
+      Seus dados protegidos com segurança
+    </p>
+
+  </div>
+
+</section>
+
+
+<section id="promocoes" class="secao-promocoes">
+  <div class="topo-promocoes">
+    <span class="etiqueta-promocoes">Campanhas ativas</span>
+    <h2>Promoções e benefícios</h2>
+    <p>Confira campanhas, cupons e benefícios pensados para tornar cada pedido mais vantajoso.</p>
+  </div>
+
+  <div class="cards-promocoes">
+    <article class="card-promocao destaque">
+      <span class="selo-promocao">Cupom</span>
+      <h3>RAIZES10</h3>
+      <p>Ganhe 10% de desconto em pedidos selecionados pelo site.</p>
+      <button class="botao-promocao" data-cupom="RAIZES10" data-desconto="0.10">Usar promoção</button>
+    </article>
+
+    <article class="card-promocao">
+      <span class="selo-promocao">Retirada</span>
+      <h3>Retire na unidade</h3>
+      <p>Ao escolher retirada, a taxa de entrega não é cobrada e o pedido segue para preparo rápido.</p>
+      <button class="botao-ir-cardapio">Ver cardápio</button>
+    </article>
+
+    <article class="card-promocao">
+      <span class="selo-promocao">Fidelidade</span>
+      <h3>Pontos que viram benefícios</h3>
+      <p>Cada pedido confirmado gera pontos para futuras recompensas e campanhas personalizadas.</p>
+      <button class="botao-ver-fidelidade">Ver fidelidade</button>
+    </article>
+  </div>
+</section>
+
+
+<section id="canais" class="secao-canais">
+  <div class="topo-canais">
+    <span class="etiqueta-canais">Peça do seu jeito</span>
+    <h2>A mesma experiência em cada canal</h2>
+    <p>Escolha a unidade, veja os produtos disponíveis e acompanhe seu pedido com a mesma clareza, esteja você em casa, no celular ou dentro da loja.</p>
+  </div>
+
+  <div class="grade-canais">
+    <article class="cartao-canal canal-web">
+      <div class="cabecalho-canal">
+        <span>Site</span>
+        <strong>Pedido online</strong>
+      </div>
+
+      <div class="visual-site">
+        <div class="barra-navegador"></div>
+        <div class="vitrine-site"></div>
+        <div class="atalhos-site">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+
+      <p>Ideal para conferir o cardápio com calma, montar o carrinho, escolher entrega ou retirada e acompanhar o andamento do pedido.</p>
+    </article>
+
+    <article class="cartao-canal canal-app">
+      <div class="cabecalho-canal">
+        <span>App</span>
+        <strong>Pedido antecipado</strong>
+      </div>
+
+      <div class="visual-celular">
+        <div class="notch-celular"></div>
+        <div class="tela-celular">
+          <div class="linha-app destaque"></div>
+          <div class="linha-app"></div>
+          <div class="linha-app curta"></div>
+          <div class="botao-app">Fidelidade</div>
+        </div>
+      </div>
+
+      <p>Perfeito para quem já conhece seus favoritos, quer aproveitar benefícios e retirar o pedido sem perder tempo na fila.</p>
+    </article>
+
+    <article class="cartao-canal canal-totem">
+      <div class="cabecalho-canal">
+        <span>Totem</span>
+        <strong>Autoatendimento</strong>
+      </div>
+
+      <div class="visual-totem">
+        <div class="tela-totem">
+          <span>Escolha sua unidade</span>
+          <button>Recife</button>
+          <button>Petrolina</button>
+          <button>Salvador</button>
+        </div>
+        <div class="base-totem"></div>
+      </div>
+
+      <p>Na loja, o cliente escolhe a unidade, monta o pedido na tela, confirma o pagamento e acompanha a retirada no balcão.</p>
+    </article>
+  </div>
+</section>
+
+<section id="cardapio" class="secao-cardapio">
+
+  <div class="topo-cardapio">
+
+    <div>
+      <h2>Cardápio</h2>
+      <p class="info-unidade">
+        Unidade selecionada: <strong class="nome-unidade">Recife</strong>
+      </p>
+      <p class="texto-unidade">
+        Os produtos e a taxa de entrega podem variar conforme a unidade escolhida.
+      </p>
+    </div>
+
+    <input
+      type="text"
+      placeholder="Buscar no cardápio..."
+      class="campo-busca"
+    >
+
+  </div>
+
+  <div class="categorias">
+
+    <button
+      class="categoria ativa"
+      data-categoria="todos">
+      Todos
+    </button>
+
+    <button
+      class="categoria"
+      data-categoria="cafes">
+      Cafés da manhã
+    </button>
+
+    <button
+      class="categoria"
+      data-categoria="lanches">
+      Lanches
+    </button>
+
+    <button
+      class="categoria"
+      data-categoria="pratos">
+      Pratos regionais
+    </button>
+
+    <button
+      class="categoria"
+      data-categoria="doces">
+      Doces regionais
+    </button>
+
+    <button
+      class="categoria"
+      data-categoria="bebidas">
+      Bebidas
+    </button>
+
+  </div>
+
+  <div class="lista-produtos">
+
+    <div
+      class="produto"
+      data-categoria="cafes"
+      data-nome="Cuscuz Nordestino"
+      data-preco="14.90"
+      data-unidades="recife,petrolina,salvador">
+
+      <img src="assets/cuscuz-img.png" alt="Cuscuz Nordestino">
+
+      <h3>Cuscuz Nordestino</h3>
+
+      <p>
+        Cuscuz de milho com manteiga e carne seca.
+      </p>
+
+      <span class="preco">
+        R$ 14,90
+      </span>
+
+      <button class="botao-add">
+        Adicionar
+      </button>
+
+    </div>
+
+    <div
+      class="produto"
+      data-categoria="cafes"
+      data-nome="Tapioca com Queijo"
+      data-preco="11.90"
+      data-unidades="recife,petrolina,salvador">
+
+      <img src="assets/tapioca-img.png" alt="Tapioca com Queijo">
+
+      <h3>Tapioca com Queijo</h3>
+
+      <p>
+        Tapioca crocante com queijo coalho.
+      </p>
+
+      <span class="preco">
+        R$ 11,90
+      </span>
+
+      <button class="botao-add">
+        Adicionar
+      </button>
+
+    </div>
+
+    <div
+      class="produto"
+      data-categoria="cafes"
+      data-nome="Tapioca de Frango"
+      data-preco="13.90"
+      data-unidades="recife,petrolina">
+
+      <img src="assets/tapioca-frango-img.png" alt="Tapioca de Frango">
+
+      <h3>Tapioca de Frango</h3>
+
+      <p>
+        Tapioca recheada com frango temperado e queijo.
+      </p>
+
+      <span class="preco">
+        R$ 13,90
+      </span>
+
+      <button class="botao-add">
+        Adicionar
+      </button>
+
+    </div>
+
+    <div
+      class="produto"
+      data-categoria="cafes"
+      data-nome="Queijo Coalho na Chapa"
+      data-preco="10.90"
+      data-unidades="recife,petrolina,salvador">
+
+      <img src="assets/queijo-coalho-img.png" alt="Queijo Coalho na Chapa">
+
+      <h3>Queijo Coalho na Chapa</h3>
+
+      <p>
+        Queijo coalho dourado na chapa com toque regional.
+      </p>
+
+      <span class="preco">
+        R$ 10,90
+      </span>
+
+      <button class="botao-add">
+        Adicionar
+      </button>
+
+    </div>
+
+    <div
+      class="produto"
+      data-categoria="cafes"
+      data-nome="Mungunzá Cremoso"
+      data-preco="12.90"
+      data-unidades="recife,salvador">
+
+      <img src="assets/munguza-img.png" alt="Mungunzá Cremoso">
+
+      <h3>Mungunzá Cremoso</h3>
+
+      <p>
+        Mungunzá doce preparado com leite, milho e especiarias.
+      </p>
+
+      <span class="preco">
+        R$ 12,90
+      </span>
+
+      <button class="botao-add">
+        Adicionar
+      </button>
+
+    </div>
+
+    <div
+      class="produto"
+      data-categoria="lanches"
+      data-nome="Sanduíche de Carne de Sol"
+      data-preco="19.90"
+      data-unidades="recife,petrolina">
+
+      <img src="assets/sanduiche-carne-sol-img.png" alt="Sanduíche de Carne de Sol">
+
+      <h3>Sanduíche de Carne de Sol</h3>
+
+      <p>
+        Pão artesanal com carne de sol, queijo coalho e molho da casa.
+      </p>
+
+      <span class="preco">
+        R$ 19,90
+      </span>
+
+      <button class="botao-add">
+        Adicionar
+      </button>
+
+    </div>
+
+    <div
+      class="produto"
+      data-categoria="lanches"
+      data-nome="Pastel de Carne de Sol"
+      data-preco="9.90"
+      data-unidades="recife,petrolina,salvador">
+
+      <img src="assets/pastel-carne-sol-img.png" alt="Pastel de Carne de Sol">
+
+      <h3>Pastel de Carne de Sol</h3>
+
+      <p>
+        Pastel crocante com recheio regional de carne de sol.
+      </p>
+
+      <span class="preco">
+        R$ 9,90
+      </span>
+
+      <button class="botao-add">
+        Adicionar
+      </button>
+
+    </div>
+
+
+    <div
+      class="produto"
+      data-categoria="lanches"
+      data-nome="Acarajé Tradicional"
+      data-preco="17.90"
+      data-unidades="recife,salvador">
+
+      <img src="assets/acaraje-img.png" alt="Acarajé Tradicional">
+
+      <h3>Acarajé Tradicional</h3>
+
+      <p>
+        Bolinho frito de massa de milho recheado com camarão e temperos.
+      </p>
+
+      <span class="preco">
+        R$ 17,90
+      </span>
+
+      <button class="botao-add">
+        Adicionar
+      </button>
+
+    </div>
+
+    <div
+      class="produto"
+      data-categoria="lanches"
+      data-nome="Cuscuz Recheado"
+      data-preco="16.90"
+      data-unidades="recife,salvador">
+
+      <img src="assets/cuscuz-recheado-img.png" alt="Cuscuz Recheado">
+
+      <h3>Cuscuz Recheado</h3>
+
+      <p>
+        Cuscuz com queijo, ovos mexidos e carne desfiada.
+      </p>
+
+      <span class="preco">
+        R$ 16,90
+      </span>
+
+      <button class="botao-add">
+        Adicionar
+      </button>
+
+    </div>
+
+    <div
+      class="produto"
+      data-categoria="pratos"
+      data-nome="Baião de Dois"
+      data-preco="18.90"
+      data-unidades="recife,petrolina">
+
+      <img src="assets/baiao-img.png" alt="Baião de Dois">
+
+      <h3>Baião de Dois</h3>
+
+      <p>
+        Arroz, feijão verde e carne de sol.
+      </p>
+
+      <span class="preco">
+        R$ 18,90
+      </span>
+
+      <button class="botao-add">
+        Adicionar
+      </button>
+
+    </div>
+
+    <div
+      class="produto"
+      data-categoria="pratos"
+      data-nome="Escondidinho de Carne de Sol"
+      data-preco="22.90"
+      data-unidades="recife,petrolina,salvador">
+
+      <img src="assets/escondidinho-img.png" alt="Escondidinho de Carne de Sol">
+
+      <h3>Escondidinho de Carne de Sol</h3>
+
+      <p>
+        Purê de macaxeira com carne de sol e queijo gratinado.
+      </p>
+
+      <span class="preco">
+        R$ 22,90
+      </span>
+
+      <button class="botao-add">
+        Adicionar
+      </button>
+
+    </div>
+
+    <div
+      class="produto"
+      data-categoria="pratos"
+      data-nome="Macaxeira com Charque"
+      data-preco="20.90"
+      data-unidades="petrolina,salvador">
+
+      <img src="assets/macaxeira-charque-img.png" alt="Macaxeira com Charque">
+
+      <h3>Macaxeira com Charque</h3>
+
+      <p>
+        Macaxeira cozida com charque desfiada e manteiga de garrafa.
+      </p>
+
+      <span class="preco">
+        R$ 20,90
+      </span>
+
+      <button class="botao-add">
+        Adicionar
+      </button>
+
+    </div>
+
+    <div
+      class="produto"
+      data-categoria="pratos"
+      data-nome="Arrumadinho Nordestino"
+      data-preco="21.90"
+      data-unidades="recife">
+
+      <img src="assets/arrumadinho-img.png" alt="Arrumadinho Nordestino">
+
+      <h3>Arrumadinho Nordestino</h3>
+
+      <p>
+        Feijão verde, farofa, vinagrete e carne de sol.
+      </p>
+
+      <span class="preco">
+        R$ 21,90
+      </span>
+
+      <button class="botao-add">
+        Adicionar
+      </button>
+
+    </div>
+
+    <div
+      class="produto"
+      data-categoria="doces"
+      data-nome="Bolo de Macaxeira"
+      data-preco="9.90"
+      data-unidades="recife,salvador">
+
+      <img src="assets/bolo-macaxeira-img.png" alt="Bolo de Macaxeira">
+
+      <h3>Bolo de Macaxeira</h3>
+
+      <p>
+        Bolo regional cremoso feito com macaxeira.
+      </p>
+
+      <span class="preco">
+        R$ 9,90
+      </span>
+
+      <button class="botao-add">
+        Adicionar
+      </button>
+
+    </div>
+
+    <div
+      class="produto"
+      data-categoria="doces"
+      data-nome="Bolo de Milho"
+      data-preco="8.90"
+      data-unidades="recife,petrolina">
+
+      <img src="assets/bolo-milho-img.png" alt="Bolo de Milho">
+
+      <h3>Bolo de Milho</h3>
+
+      <p>
+        Fatia de bolo de milho macio com sabor de festa junina.
+      </p>
+
+      <span class="preco">
+        R$ 8,90
+      </span>
+
+      <button class="botao-add">
+        Adicionar
+      </button>
+
+    </div>
+
+    <div
+      class="produto"
+      data-categoria="doces"
+      data-nome="Cartola Nordestina"
+      data-preco="13.90"
+      data-unidades="salvador, petrolina">
+
+      <img src="assets/cartola-img.png" alt="Cartola Nordestina">
+
+      <h3>Cartola Nordestina</h3>
+
+      <p>
+        Banana, queijo manteiga, açúcar e canela.
+      </p>
+
+      <span class="preco">
+        R$ 13,90
+      </span>
+
+      <button class="botao-add">
+        Adicionar
+      </button>
+
+    </div>
+
+
+    <div
+      class="produto"
+      data-categoria="doces"
+      data-nome="Doce de Leite Caseiro"
+      data-preco="8.50"
+      data-unidades="recife,petrolina,salvador">
+
+      <img src="assets/doce-leite-img.png" alt="Doce de Leite Caseiro">
+
+      <h3>Doce de Leite Caseiro</h3>
+
+      <p>
+        Doce de leite artesanal servido cremoso e gelado.
+      </p>
+
+      <span class="preco">
+        R$ 8,50
+      </span>
+
+      <button class="botao-add">
+        Adicionar
+      </button>
+
+    </div>
+
+    <div
+      class="produto"
+      data-categoria="bebidas"
+      data-nome="Suco de Acerola"
+      data-preco="6.90"
+      data-unidades="recife,petrolina,salvador">
+
+      <img src="assets/suco-acerola-img.png" alt="Suco de Acerola">
+
+      <h3>Suco de Acerola</h3>
+
+      <p>
+        Natural e refrescante.
+      </p>
+
+      <span class="preco">
+        R$ 6,90
+      </span>
+
+      <button class="botao-add">
+        Adicionar
+      </button>
+
+    </div>
+
+    <div
+      class="produto"
+      data-categoria="bebidas"
+      data-nome="Suco de Maracujá"
+      data-preco="6.90"
+      data-unidades="recife,salvador, petrolina">
+
+      <img src="assets/suco-maracuja-img.png" alt="Suco de Maracujá">
+
+      <h3>Suco de Maracujá</h3>
+
+      <p>
+        Natural e refrescante.
+      </p>
+
+      <span class="preco">
+        R$ 6,90
+      </span>
+
+      <button class="botao-add">
+        Adicionar
+      </button>
+
+    </div>
+
+    <div
+      class="produto"
+      data-categoria="bebidas"
+      data-nome="Suco de Cajá"
+      data-preco="7.90"
+      data-unidades="recife,petrolina,salvador">
+
+      <img src="assets/suco-caja-img.png" alt="Suco de Cajá">
+
+      <h3>Suco de Cajá</h3>
+
+      <p>
+        Suco regional de cajá, gelado e levemente cítrico.
+      </p>
+
+      <span class="preco">
+        R$ 7,90
+      </span>
+
+      <button class="botao-add">
+        Adicionar
+      </button>
+
+    </div>
+
+    <div
+      class="produto"
+      data-categoria="bebidas"
+      data-nome="Caldo de Cana"
+      data-preco="6.50"
+      data-unidades="petrolina">
+
+      <img src="assets/caldo-cana-img.png" alt="Caldo de Cana">
+
+      <h3>Caldo de Cana</h3>
+
+      <p>
+        Bebida tradicional, doce e refrescante.
+      </p>
+
+      <span class="preco">
+        R$ 6,50
+      </span>
+
+      <button class="botao-add">
+        Adicionar
+      </button>
+
+    </div>
+
+    <div
+      class="produto"
+      data-categoria="bebidas"
+      data-nome="Café Regional"
+      data-preco="5.90"
+      data-unidades="recife,petrolina,salvador">
+
+      <img src="assets/cafe-regional-img.png" alt="Café Regional">
+
+      <h3>Café Regional</h3>
+
+      <p>
+        Café passado na hora, ideal para acompanhar bolos e tapiocas.
+      </p>
+
+      <span class="preco">
+        R$ 5,90
+      </span>
+
+      <button class="botao-add">
+        Adicionar
+      </button>
+
+    </div>
+
+  </div>
+
+  <div class="sem-produtos">
+    <p>
+      Desculpe, não temos esse produto. Explore nosso cardápio na unidade desejada.
+    </p>
+
+    <button class="botao-acessar-cardapio">
+      Acessar cardápio
+    </button>
+  </div>
+
+</section>
+
+
+<section id="fidelidade" class="secao-fidelidade">
+  <div class="cartao-fidelidade">
+    <div class="texto-fidelidade">
+      <span class="etiqueta-fidelidade">Programa de recompensas</span>
+      <h2>Fidelidade Raízes</h2>
+      <p>O cliente acumula pontos a cada pedido confirmado. Esses pontos podem representar descontos, benefícios em campanhas futuras e experiências personalizadas por unidade.</p>
+
+      <div class="regras-fidelidade">
+        <div><strong>1 ponto</strong><span>a cada R$ 1,00 em pedidos</span></div>
+        <div><strong>120+</strong><span>pontos iniciais na conta</span></div>
+        <div><strong>LGPD</strong><span>uso de dados mediante consentimento</span></div>
+      </div>
+    </div>
+
+    <div class="painel-fidelidade">
+      <img src="assets/fidelidade-icon.png" alt="Fidelidade" class="icone-painel-fidelidade">
+      <span>Saldo atual</span>
+      <strong class="saldo-fidelidade">0 pontos</strong>
+      <p>Faça login para acompanhar seus pontos e benefícios.</p>
+      <button class="botao-abrir-login-fidelidade">Acessar conta</button>
+    </div>
+  </div>
+</section>
+
+<section id="sobre" class="secao-sobre">
+
+  <div class="decoracao-sobre decoracao-sobre-um"></div>
+  <div class="decoracao-sobre decoracao-sobre-dois"></div>
+
+  <div class="topo-sobre">
+
+    <span class="etiqueta-sobre">
+      Tradição, tecnologia e escala
+    </span>
+
+    <h2>Sobre nós</h2>
+
+    <p>
+      O Raízes do Nordeste nasceu para transformar a culinária regional em uma experiência
+      digital completa, acolhedora e cheia de identidade. Unimos receitas tradicionais,
+      atendimento ágil e tecnologia para aproximar o cliente dos sabores que contam a história
+      do Nordeste.
+    </p>
+
+  </div>
+
+  <div class="banner-sobre">
+
+    <div class="texto-banner-sobre">
+      <span>Nossa essência</span>
+
+      <h3>
+        Da cozinha regional para uma jornada digital moderna
+      </h3>
+
+      <p>
+        Cada unidade foi pensada para respeitar os costumes, ingredientes e preferências da sua cidade.
+        Por isso, o sistema adapta cardápio, taxa de entrega, retirada, pagamento e benefícios conforme
+        a unidade escolhida pelo cliente.
+      </p>
+    </div>
+
+    <div class="painel-banner-sobre">
+      <div class="selo-banner-sobre">
+        <strong>100%</strong>
+        <span>Nordestino</span>
+      </div>
+
+      <div class="prato-destaque-sobre">
+        <span>
+            <img
+              src="assets/ingredientes-icon.png"
+              alt="Sabores com história"
+              class="icone-sobre-img"
+            >
+          </span>
+        <strong>Sabores com história</strong>
+        <p>Receitas típicas apresentadas em uma experiência simples, rápida e elegante.</p>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="conteudo-sobre">
+
+    <div class="texto-sobre">
+
+      <span class="subtitulo-sobre">
+        Nossa proposta
+      </span>
+
+      <h3>
+        Uma rede regional pensada para crescer
+      </h3>
+
+      <p>
+        O que começou como uma unidade familiar em Recife evoluiu para uma marca preparada
+        para atender clientes em diferentes cidades, mantendo a essência da comida nordestina
+        e elevando a experiência com recursos digitais.
+      </p>
+
+      <p>
+        A proposta é oferecer uma jornada completa: escolha da unidade, visualização do cardápio,
+        montagem do pedido, pagamento externo, acompanhamento de status e benefícios
+        de fidelidade.
+      </p>
+
+      <div class="destaque-sobre">
+        <span>
+          <img
+            src="assets/fidelidade-icon.png"
+            alt="Experiência regional"
+            class="icone-sobre-img"
+          >
+        </span>
+        <p>
+          Uma experiência criada para unir afeto, praticidade e identidade regional em cada etapa do pedido.
+        </p>
+      </div>
+
+    </div>
+
+    <div class="cards-sobre">
+
+      <div class="card-sobre">
+        <span>
+          <img
+            src="assets/localizacao-icon.png"
+            alt="Múltiplas unidades"
+            class="icone-sobre-img"
+          >
+        </span>
+        <strong>Múltiplas unidades</strong>
+        <p>Cardápio e taxas adaptados para Recife, Petrolina e Salvador.</p>
+      </div>
+
+      <div class="card-sobre">
+        <span>
+            <img
+              src="assets/ingredientes-icon.png"
+              alt="Sabores com história"
+              class="icone-sobre-img"
+            >
+          </span>
+        <strong>Receitas regionais</strong>
+        <p>Produtos típicos com identidade cultural nordestina.</p>
+      </div>
+
+      <div class="card-sobre">
+        <span>
+          <img
+            src="assets/experiencia-icon.png"
+            alt="Experiência integrada"
+            class="icone-sobre-img"
+          >
+        </span>
+        <strong>Experiência integrada</strong>
+        <p>Fluxo pensado para web, aplicativo e totens de autoatendimento.</p>
+      </div>
+
+      <div class="card-sobre">
+        <span>
+          <img
+            src="assets/fidelidade-icon.png"
+            alt="Fidelização"
+            class="icone-sobre-img"
+          >
+        </span>
+        <strong>Fidelização</strong>
+        <p>Pontos, benefícios e campanhas para aproximar o cliente da marca.</p>
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="metricas-sobre">
+
+    <div>
+      <strong>3</strong>
+      <span>Cidades atendidas</span>
+    </div>
+
+    <div>
+      <strong>20+</strong>
+      <span>Produtos regionais</span>
+    </div>
+
+    <div>
+      <strong>4</strong>
+      <span>Etapas de pedido</span>
+    </div>
+
+    <div>
+      <strong>1</strong>
+      <span>Experiência integrada</span>
+    </div>
+
+  </div>
+
+  <div class="linha-tempo-sobre">
+
+    <div>
+        <img
+          src="assets/recife-turismo-img.png"
+          alt="Primeira unidade em Recife"
+          class="imagem-linha-tempo"
+        >
+
+        <div class="conteudo-linha-tempo">
+          <strong>2020</strong>
+          <span>Primeira unidade em Recife</span>
+        </div>
+      </div>
+
+    <div>
+        <img
+          src="assets/petrolina-turismo-img.png"
+          alt="Expansão para Petrolina"
+          class="imagem-linha-tempo"
+        >
+
+        <div class="conteudo-linha-tempo">
+          <strong>2023</strong>
+          <span>Expansão para Petrolina</span>
+        </div>
+      </div>
+
+    <div>
+        <img
+          src="assets/salvador-turismo-img.png"
+          alt="Nova unidade em Salvador"
+          class="imagem-linha-tempo"
+        >
+
+        <div class="conteudo-linha-tempo">
+          <strong>2025</strong>
+          <span>Nova unidade em Salvador</span>
+        </div>
+      </div>
+
+    <div>
+        <img
+          src="assets/hero.png"
+          alt="Plataforma digital integrada"
+          class="imagem-linha-tempo"
+        >
+
+        <div class="conteudo-linha-tempo">
+          <strong>2026</strong>
+          <span>Plataforma digital integrada</span>
+        </div>
+      </div>
+
+  </div>
+
+  <div class="cta-sobre">
+    <h3>Escolha sua unidade e viva a experiência Raízes do Nordeste</h3>
+    <p>Sabores regionais, atendimento prático e uma jornada digital feita para aproximar você da nossa cozinha.</p>
+    <button class="botao-principal botao-ir-cardapio">
+      Ver cardápio
+    </button>
+  </div>
+
+</section>
+
+<div class="fundo-carrinho"></div>
+
+<aside class="carrinho">
+
+  <div class="topo-carrinho">
+
+    <h2>Seu carrinho</h2>
+
+    <button class="fechar-carrinho">
+      ×
+    </button>
+
+  </div>
+
+  <div class="itens-carrinho"></div>
+
+  <div class="rodape-carrinho">
+
+    <div class="total">
+
+      <span>Total</span>
+
+      <span class="valor-total">
+        R$ 0,00
+      </span>
+
+    </div>
+
+    <button class="finalizar-pedido">
+      Finalizar pedido
+    </button>
+
+  </div>
+
+</aside>
+
+<div class="aviso-carrinho">
+  Produto adicionado ao carrinho
+</div>
+
+<div class="aviso-unidade">
+  Unidade atualizada
+</div>
+
+<div class="fundo-checkout"></div>
+
+<div class="checkout">
+
+  <div class="topo-checkout">
+
+    <h2>Finalizar pedido</h2>
+
+    <button class="fechar-checkout">
+      ×
+    </button>
+
+  </div>
+
+  <div class="conteudo-checkout">
+
+    <div class="resumo-checkout">
+
+      <h3>Resumo do pedido</h3>
+
+      <p class="unidade-checkout">
+        Unidade: <strong class="unidade-resumo">Recife</strong>
+      </p>
+
+      <div class="lista-checkout"></div>
+
+      <div class="linha-resumo">
+        <span>Subtotal</span>
+        <span class="subtotal-checkout">
+          R$ 0,00
+        </span>
+      </div>
+
+      <div class="linha-resumo">
+        <span>Entrega</span>
+        <span class="valor-entrega">
+          R$ 6,00
+        </span>
+      </div>
+
+      <div class="linha-resumo linha-desconto oculto">
+        <span>Desconto</span>
+        <span class="valor-desconto">- R$ 0,00</span>
+      </div>
+
+      <div class="linha-resumo total-final">
+        <span>Total</span>
+        <span class="total-checkout">
+          R$ 0,00
+        </span>
+      </div>
+
+    </div>
+
+    <div class="grupo-campo">
+
+      <label>
+        Nome completo
+        <span class="obrigatorio">*</span>
+      </label>
+
+      <input
+        type="text"
+        class="campo-checkout"
+        id="nome"
+      >
+
+      <span class="mensagem-erro">
+        Campo obrigatório
+      </span>
+
+    </div>
+
+    <div class="grupo-campo">
+
+      <label>
+        Telefone
+        <span class="obrigatorio">*</span>
+      </label>
+
+      <input
+        type="text"
+        class="campo-checkout"
+        id="telefone"
+      >
+
+      <span class="mensagem-erro">
+        Campo obrigatório
+      </span>
+
+    </div>
+
+    <div class="grupo-campo">
+
+      <label>
+        Tipo do pedido
+        <span class="obrigatorio">*</span>
+      </label>
+
+      <select
+        class="campo-checkout"
+        id="tipo-pedido">
+
+        <option value="">
+          Selecione
+        </option>
+
+        <option value="entrega">
+          Entrega
+        </option>
+
+        <option value="retirada">
+          Retirada na loja
+        </option>
+
+      </select>
+
+      <span class="mensagem-erro">
+        Campo obrigatório
+      </span>
+
+    </div>
+
+    <div class="campos-entrega">
+
+      <div class="grupo-campo">
+
+        <label>
+          CEP
+          <span class="obrigatorio">*</span>
+        </label>
+
+        <input
+          type="text"
+          class="campo-checkout"
+          id="cep"
+        >
+
+        <span class="mensagem-erro">
+          Campo obrigatório
+        </span>
+
+      </div>
+
+      <div class="grupo-campo">
+
+        <label>
+          Rua
+          <span class="obrigatorio">*</span>
+        </label>
+
+        <input
+          type="text"
+          class="campo-checkout"
+          id="rua"
+        >
+
+        <span class="mensagem-erro">
+          Campo obrigatório
+        </span>
+
+      </div>
+
+      <div class="grupo-campo">
+
+        <label>
+          Número
+          <span class="obrigatorio">*</span>
+        </label>
+
+        <input
+          type="text"
+          class="campo-checkout"
+          id="numero"
+        >
+
+        <span class="mensagem-erro">
+          Campo obrigatório
+        </span>
+
+      </div>
+
+      <div class="grupo-campo">
+
+        <label>
+          Bairro
+          <span class="obrigatorio">*</span>
+        </label>
+
+        <input
+          type="text"
+          class="campo-checkout"
+          id="bairro"
+        >
+
+        <span class="mensagem-erro">
+          Campo obrigatório
+        </span>
+
+      </div>
+
+      <div class="grupo-campo">
+
+        <label>
+          Complemento
+        </label>
+
+       <input
+          type="text"
+          class="campo-checkout campo-opcional"
+          id="complemento">
+
+      </div>
+
+    </div>
+
+    <div class="grupo-campo">
+
+      <label>
+        Forma de pagamento
+        <span class="obrigatorio">*</span>
+      </label>
+
+      <select
+        class="campo-checkout"
+        id="pagamento">
+
+        <option value="">
+          Selecione
+        </option>
+
+        <option value="credito">
+          Crédito à vista
+        </option>
+
+        <option value="debito">
+          Débito
+        </option>
+
+        <option value="pix">
+          PIX
+        </option>
+
+        <option value="dinheiro">
+          Dinheiro
+        </option>
+
+      </select>
+
+      <span class="mensagem-erro">
+        Campo obrigatório
+      </span>
+
+    </div>
+
+
+    <div class="dados-cartao oculto">
+
+      <div class="cabecalho-cartao">
+        <h3>Dados do cartão</h3>
+        <p>
+          Os dados abaixo serão usados apenas para concluir a etapa de pagamento com segurança.
+        </p>
+      </div>
+
+      <div class="grupo-campo">
+
+        <label>
+          Número do cartão
+          <span class="obrigatorio">*</span>
+        </label>
+
+        <input
+          type="text"
+          class="campo-checkout campo-cartao"
+          id="numero-cartao"
+          placeholder="0000 0000 0000 0000"
+          maxlength="19"
+        >
+
+        <span class="mensagem-erro">
+          Informe o número do cartão.
+        </span>
+
+      </div>
+
+      <div class="grupo-campo">
+
+        <label>
+          Nome impresso no cartão
+          <span class="obrigatorio">*</span>
+        </label>
+
+        <input
+          type="text"
+          class="campo-checkout campo-cartao"
+          id="nome-cartao"
+          placeholder="Nome como aparece no cartão"
+        >
+
+        <span class="mensagem-erro">
+          Informe o nome do titular.
+        </span>
+
+      </div>
+
+      <div class="linha-cartao">
+
+        <div class="grupo-campo">
+
+          <label>
+            Validade
+            <span class="obrigatorio">*</span>
+          </label>
+
+          <input
+            type="text"
+            class="campo-checkout campo-cartao"
+            id="validade-cartao"
+            placeholder="MM/AA"
+            maxlength="5"
+          >
+
+          <span class="mensagem-erro">
+            Informe a validade.
+          </span>
+
+        </div>
+
+        <div class="grupo-campo">
+
+          <label>
+            CVV
+            <span class="obrigatorio">*</span>
+          </label>
+
+          <input
+            type="text"
+            class="campo-checkout campo-cartao"
+            id="cvv-cartao"
+            placeholder="000"
+            maxlength="4"
+          >
+
+          <span class="mensagem-erro">
+            Informe o CVV.
+          </span>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="grupo-campo campo-troco oculto">
+
+      <label>
+        Troco para quanto?
+      </label>
+
+      <input
+        type="text"
+        class="campo-checkout campo-opcional"
+        id="troco"
+        placeholder="Ex: R$ 50,00"
+      >
+
+      <small class="texto-ajuda">
+        Preencha apenas se precisar de troco.
+      </small>
+
+    </div>
+
+    <div class="grupo-campo">
+
+      <label>
+        Observações do pedido
+      </label>
+
+      <textarea
+        class="campo-checkout campo-opcional"
+        id="observacoes"
+        rows="3"
+        placeholder="Ex: retirar cebola, entregar na portaria, ponto da carne..."
+      ></textarea>
+
+    </div>
+
+    <div class="grupo-campo grupo-lgpd">
+
+      <label class="label-lgpd">
+        <input type="checkbox" id="consentimento-lgpd">
+
+        <span>
+          Autorizo o uso dos meus dados para processamento do pedido,
+          comunicação sobre entrega ou retirada, pagamento externo e programa de fidelidade,
+          conforme a Política de Privacidade.
+          <span class="obrigatorio">*</span>
+        </span>
+      </label>
+
+      <small class="texto-lgpd">
+        Seus dados serão utilizados apenas para fins operacionais deste pedido,
+        respeitando os princípios da LGPD.
+      </small>
+
+      <span class="mensagem-erro erro-lgpd">
+        É necessário aceitar o uso dos dados para continuar.
+      </span>
+
+    </div>
+
+    <button class="botao-confirmar">
+      Confirmar pedido
+    </button>
+
+  </div>
+
+</div>
+
+
+<div class="fundo-processamento"></div>
+
+<div class="modal-processamento">
+
+  <div class="loader-pagamento"></div>
+
+  <h2>Processando pagamento</h2>
+
+  <p>
+    Estamos enviando a solicitação para o serviço externo de pagamento.
+  </p>
+
+  <small>
+    Ambiente seguro para validar a experiência antes da confirmação final.
+  </small>
+
+</div>
+
+<div class="fundo-confirmacao"></div>
+
+<div class="modal-confirmacao">
+
+  <div class="icone-confirmacao">✓</div>
+
+  <h2>Pedido confirmado!</h2>
+
+  <p class="numero-pedido">
+    Pedido nº <strong class="pedido-gerado">0000</strong>
+  </p>
+
+  <p class="mensagem-confirmacao">
+    Seu pedido foi recebido pela unidade selecionada e já entrou no fluxo de preparo.
+  </p>
+
+  <div class="resumo-confirmacao">
+
+    <div>
+      <span>Status inicial</span>
+      <strong>Pedido recebido</strong>
+    </div>
+
+    <div>
+      <span>Pontos ganhos</span>
+      <strong class="pontos-ganhos">0 pontos</strong>
+    </div>
+
+  </div>
+
+  <button class="botao-acompanhar-pedido">
+    Acompanhar pedido
+  </button>
+
+  <button class="botao-fechar-confirmacao botao-secundario-confirmacao">
+    Acompanhar depois
+  </button>
+
+</div>
+
+
+<div class="fundo-acompanhamento"></div>
+
+<div class="modal-acompanhamento">
+
+  <div class="topo-acompanhamento">
+    <div>
+      <h2>Acompanhar pedido</h2>
+      <p>
+        Pedido nº <strong class="pedido-acompanhamento">0000</strong>
+      </p>
+    </div>
+
+    <button class="fechar-acompanhamento">
+      ×
+    </button>
+  </div>
+
+  <div class="barra-progresso-pedido">
+    <div class="progresso-pedido"></div>
+  </div>
+
+  <div class="lista-status-pedido">
+
+    <div class="status-pedido ativo" data-etapa="0">
+      <span class="icone-status">✓</span>
+      <div>
+        <strong>Pedido recebido</strong>
+        <p>Sua solicitação foi registrada pela unidade escolhida.</p>
+      </div>
+    </div>
+
+    <div class="status-pedido" data-etapa="1">
+      <span class="icone-status">1</span>
+      <div>
+        <strong>Pagamento aprovado</strong>
+        <p>O serviço externo confirmou o pagamento do pedido.</p>
+      </div>
+    </div>
+
+    <div class="status-pedido" data-etapa="2">
+      <span class="icone-status">2</span>
+      <div>
+        <strong>Em preparo</strong>
+        <p>A equipe iniciou o preparo dos produtos selecionados.</p>
+      </div>
+    </div>
+
+    <div class="status-pedido" data-etapa="3">
+      <span class="icone-status">3</span>
+      <div>
+        <strong class="texto-status-entrega">Saiu para entrega</strong>
+        <p class="descricao-status-entrega">
+          O pedido está a caminho do endereço informado.
+        </p>
+      </div>
+    </div>
+
+    <div class="status-pedido" data-etapa="4">
+      <span class="icone-status">4</span>
+      <div>
+        <strong>Finalizado</strong>
+        <p>Pedido concluído. Obrigado por escolher o Raízes do Nordeste.</p>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+
+<div class="fundo-autenticacao"></div>
+
+<div class="modal-autenticacao">
+
+  <div class="topo-autenticacao">
+    <div>
+      <span class="etiqueta-autenticacao">Área do cliente</span>
+      <h2>Acesse sua conta</h2>
+      <p>
+        Entre ou crie seu cadastro para acompanhar pedidos, acumular pontos e receber benefícios.
+      </p>
+    </div>
+
+    <button class="fechar-autenticacao">
+      ×
+    </button>
+  </div>
+
+  <div class="abas-autenticacao">
+    <button class="aba-autenticacao ativa" data-aba="login">
+      Entrar
+    </button>
+
+    <button class="aba-autenticacao" data-aba="cadastro">
+      Criar conta
+    </button>
+  </div>
+
+  <form class="form-autenticacao form-login ativo">
+
+    <div class="grupo-campo">
+      <label>
+        E-mail
+        <span class="obrigatorio">*</span>
+      </label>
+
+      <input
+        type="email"
+        class="campo-auth"
+        id="login-email"
+        placeholder="seuemail@exemplo.com"
+      >
+
+      <span class="mensagem-erro erro-login-email">
+        Informe um e-mail válido.
+      </span>
+    </div>
+
+    <div class="grupo-campo">
+      <label>
+        Senha
+        <span class="obrigatorio">*</span>
+      </label>
+
+      <input
+        type="password"
+        class="campo-auth"
+        id="login-senha"
+        placeholder="Digite sua senha"
+      >
+
+      <span class="mensagem-erro erro-login-senha">
+        Informe sua senha.
+      </span>
+    </div>
+
+    <button class="botao-autenticacao" type="submit">
+      Entrar
+    </button>
+
+    <p class="texto-ajuda-auth">
+      Simulação front-end: os dados ficam salvos apenas no navegador.
+    </p>
+
+  </form>
+
+  <form class="form-autenticacao form-cadastro">
+
+    <div class="grupo-campo">
+      <label>
+        Nome completo
+        <span class="obrigatorio">*</span>
+      </label>
+
+      <input
+        type="text"
+        class="campo-auth"
+        id="cadastro-nome"
+        placeholder="Ex: Maria Silva"
+      >
+
+      <span class="mensagem-erro erro-cadastro-nome">
+        Informe seu nome.
+      </span>
+    </div>
+
+    <div class="grupo-campo">
+      <label>
+        E-mail
+        <span class="obrigatorio">*</span>
+      </label>
+
+      <input
+        type="email"
+        class="campo-auth"
+        id="cadastro-email"
+        placeholder="seuemail@exemplo.com"
+      >
+
+      <span class="mensagem-erro erro-cadastro-email">
+        Informe um e-mail válido.
+      </span>
+    </div>
+
+    <div class="grupo-campo">
+      <label>
+        Telefone
+        <span class="obrigatorio">*</span>
+      </label>
+
+      <input
+        type="text"
+        class="campo-auth"
+        id="cadastro-telefone"
+        placeholder="(00) 00000-0000"
+      >
+
+      <span class="mensagem-erro erro-cadastro-telefone">
+        Informe seu telefone.
+      </span>
+    </div>
+
+    <div class="grupo-campo">
+      <label>
+        Senha
+        <span class="obrigatorio">*</span>
+      </label>
+
+      <input
+        type="password"
+        class="campo-auth"
+        id="cadastro-senha"
+        placeholder="Mínimo de 4 caracteres"
+      >
+
+      <span class="mensagem-erro erro-cadastro-senha">
+        A senha deve ter pelo menos 4 caracteres.
+      </span>
+    </div>
+
+    <div class="grupo-campo grupo-lgpd-auth">
+
+      <label class="label-lgpd">
+        <input type="checkbox" id="cadastro-lgpd">
+
+        <span>
+          Autorizo o uso dos meus dados para criação de conta, acompanhamento de pedidos,
+          comunicação operacional e programa de fidelidade.
+          <span class="obrigatorio">*</span>
+        </span>
+      </label>
+
+      <small class="texto-lgpd">
+        Ao continuar, você autoriza o uso dos dados informados para cadastro, pedidos e benefícios do programa de fidelidade.
+      </small>
+
+      <span class="mensagem-erro erro-cadastro-lgpd">
+        É necessário aceitar o uso dos dados para criar a conta.
+      </span>
+
+    </div>
+
+    <button class="botao-autenticacao" type="submit">
+      Criar conta
+    </button>
+
+  </form>
+
+  <div class="painel-cliente">
+
+    <div class="cliente-logado-card">
+      <img
+        src="assets/usuario-icon.png"
+        alt="Usuário"
+        class="icone-cliente-logado"
+      >
+
+      <div>
+        <h3 class="nome-cliente-logado">Cliente</h3>
+        <p class="email-cliente-logado">cliente@email.com</p>
+      </div>
+    </div>
+
+    <div class="resumo-cliente">
+      <div>
+        <strong class="pontos-cliente">0</strong>
+        <span>Pontos acumulados</span>
+      </div>
+
+      <div>
+        <strong>Bronze</strong>
+        <span>Nível atual</span>
+      </div>
+    </div>
+
+    <p class="texto-ajuda-auth">
+      Acesse sua conta para acompanhar pontos, benefícios e preferências de atendimento.
+    </p>
+
+    <button class="botao-sair-conta" type="button">
+      Sair da conta
+    </button>
+
+  </div>
+
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
